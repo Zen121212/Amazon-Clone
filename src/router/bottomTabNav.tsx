@@ -20,17 +20,17 @@ const BottomTabNav = () => {
         name="Home"
         component={HomeScreen}
         options={{
-          tabBarIcon: ({ color }) => <Entypo name="home" color={color} size={26} />
+          tabBarIcon: ({ color }) => <Entypo name="home" color={color} size={25} />
         }}
       />
       <Tab.Screen name="profile" component={HomeScreen} options={{
-        tabBarIcon: ({ color }) => <Entypo name="user" color={color} size={26} />
+        tabBarIcon: ({ color }) => <Entypo name="user" color={color} size={25} />
       }} />
       <Tab.Screen name="shoppingCart" component={ShoppingCartScreen} options={{
-        tabBarIcon: ({ color }) => <Entypo name="shopping-cart" color={color} size={26} />
+        tabBarIcon: ({ color }) => <Entypo name="shopping-cart" color={color} size={25} />
       }} />
       <Tab.Screen name="more" component={HomeScreen} options={{
-        tabBarIcon: ({ color }) => <Entypo name="menu" color={color} size={26} />
+        tabBarIcon: ({ color }) => <Entypo name="menu" color={color} size={25} />
       }} />
     </Tab.Navigator>
   );
